@@ -5,7 +5,7 @@ using namespace std;
 
 // } Driver Code Ends
 // User function template for C++
-
+// Functional Recusrsion
 class Solution {
   public:
     long long sumOfSeries(long long n) {
@@ -13,7 +13,7 @@ class Solution {
         if(n<1){
             return 0;
         }
-        return (n * n * n) + sumOfSeries(n - 1);
+        return (n * n * n) + sumOfSeries(n - 1); // waiting for its lower function to be done
     }
 };
 
